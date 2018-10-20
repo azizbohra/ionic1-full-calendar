@@ -1,0 +1,101 @@
+.ionic_Calendar {
+  padding: 10px;
+
+  .calendar_Date .row.Daysheading {
+    text-align: center;
+  }
+
+  .txtCenter {
+    text-align: center;
+  }
+
+  .col.selMonth {
+    background-color: #f7e497;
+    color: #000;
+  }
+
+  .DaysDisplay .col.selDate .circle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f7e497;
+    color: #000;
+  }
+
+  .col.selYear {
+    background-color: #f7e497;
+    color: #000;
+  }
+
+  .col.fadeDateDisp {
+    /* background-color: #E9E9E9; */
+    color: #757575;
+  }
+
+  .col.fadeYear {
+    /* background-color: #E9E9E9; */
+    color: #D5D5D5
+  }
+
+  .DaysDisplay .col {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .DaysDisplay .col .circle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .DaysDisplay.row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .MonthsDisplay.row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .MonthsDisplay .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .YearsDisplay.row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .YearsDisplay .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .marginTop0 {
+    margin-top: 0px !important;
+  }
+
+  .paddingBottom0 {
+    padding-bottom: 0px !important;
+  }
+
+  .Daysheading_Label {
+    padding-top: 5px !important;
+    margin-top: unset !important;
+  }
+
+  .Daysheading_Label .col {}
+}
