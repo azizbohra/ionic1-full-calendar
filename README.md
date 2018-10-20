@@ -8,6 +8,7 @@ Simple Calendar for [Ionic](http://ionicframework.com/)
 * easy to customize
 * with on date select callback
 
+## Usage
 >
 ``` JavaScript
 angular.module('starter', ['ionic', 'ionic-full-calendar'])
